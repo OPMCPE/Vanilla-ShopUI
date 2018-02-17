@@ -29,73 +29,73 @@ class Main extends PluginBase implements Listener {
   */
 public $Blocks = [
     "ICON" => ["Blocks",2,0],
-    "Oak Wood" => [17,0,30,15],
-    "Birch Wood" => [17,2,30,15],
-    "Spruce Wood" => [17,1,30,15],
-    "Dark Oak Wood" => [162,1,30,15],
-	"Cobblestone" => [4,0,10,5],
-	"Obsidian" => [49,0,500,250],
-	"Bedrock" => [7,0,1500,500],
-	"Sand " => [12,0,15,7],
-    "Sandstone " => [24,0,15,7],
-	"Nether Rack" => [87,0,15,7],
-    "Glass" => [20,0,50,25],
-    "Glowstone" => [89,0,100,50],
-    "Sea Lantern" => [169,0,100,50],
-	"Grass" => [2,0,20,10],
-	"Dirt" => [3,0,10, 5],
-    "Stone" => [1,0,20,10],
-    "Planks" => [5,0,20,10],
-    "Prismarine" => [168,0,30,20],
-    "End Stone" => [121,0,30,20],
-    "Emerald Block" => [133,0,100,50],
-    "Diamond Block" => [57,0,101,51],
-    "Glass" => [20,0,50,30],
-    "Iron Block" => [42,0,50,30],
-    "Gold Block" => [41,0,50,30],
-    "Purpur Blocks" => [201,0,50,30],
-    "Quartz Block" => [155,0,100,30]
+    "Oak Wood" => [17,0,300,15],
+    "Birch Wood" => [17,2,300,15],
+    "Spruce Wood" => [17,1,300,15],
+    "Dark Oak Wood" => [162,1,300,15],
+	"Cobblestone" => [4,0,100,5],
+	"Obsidian" => [49,0,5000,250],
+	"Bedrock" => [7,0,150000,500],
+	"Sand " => [12,0,1500,7],
+    "Sandstone " => [24,0,1500,7],
+	"Nether Rack" => [87,0,1500,7],
+    "Glass" => [20,0,2000,25],
+    "Glowstone" => [89,0,1000,50],
+    "Sea Lantern" => [169,0,1000,50],
+	"Grass" => [2,0,300,10],
+	"Dirt" => [3,0,30,5],
+    "Stone" => [1,0,2000,10],
+    "Planks" => [5,0,2000,10],
+    "Prismarine" => [168,0,3000,20],
+    "End Stone" => [121,0,1000000,20],
+    "Emerald Block" => [133,0,20000,50],
+    "Diamond Block" => [57,0,15000,51],
+    "Glass" => [20,0,750,30],
+    "Iron Block" => [42,0,5000,30],
+    "Gold Block" => [41,0,5000,30],
+    "Purpur Blocks" => [201,0,1200,30],
+    "Quartz Block" => [155,0,1000,30]
   ];
 
   public $Ores = [
     "ICON" => ["Ores",266,0],
-    "Coal" => [263,0,100,50],
-    "Iron Ingot" => [265,0,200,100],
-    "Gold Ingot" => [266,0,300,150],
-    "Diamond" => [264,0,500,250],
+    "Coal" => [263,0,1000,50],
+    "Iron Ingot" => [265,0,1100,100],
+    "Gold Ingot" => [266,0,1050,150],
+    "Diamond" => [264,0,1300,250],
     "Lapis" => [351,4,500,250]
   ];
 
   public $Tools = [
     "ICON" => ["Tools",278,0],
-    "Diamond Pickaxe" => [278,0,500,250],
-    "Diamond Shovel" => [277,0,500,250],
-    "Diamond Axe" => [279,0,500,250],
-    "Diamond Hoe" => [293,0,500,250],
-    "Diamond Sword" => [276,0,750,375],
-    "Bow" => [261,0,400,200],
-    "Arrow" => [262,0,25,5]
+    "Diamond Pickaxe" => [278,0,5000,250],
+    "Diamond Shovel" => [277,0,5000,250],
+    "Diamond Axe" => [279,0,5000,250],
+    "Diamond Hoe" => [293,0,5000,250],
+    "Diamond Sword" => [276,0,7500,375],
+    "Bow" => [261,0,4000,200],
+    "Arrow" => [262,0,250,5]
   ];
 
   public $Armor = [
     "ICON" => ["Armor",311,0],
-    "Diamond Helmet" => [310,0,1000,500],
-    "Diamond Chestplate" => [311,0,2500,1250],
-    "Diamond Leggings" => [312,0,1500,750],
-    "Diamond Boots" => [313,0,1000,500]
+    "Diamond Helmet" => [310,0,10000,500],
+    "Diamond Chestplate" => [311,0,25000,1250],
+    "Diamond Leggings" => [312,0,15000,750],
+    "Diamond Boots" => [313,0,10000,500]
   ];
 
   public $Farming = [
     "ICON" => ["Farming",293,0],
-    "Pumpkin" => [86,0,50,25],
-    "Melon" => [360,13,50,25],
-    "Carrot" => [391,0,80,40],
-    "Potato" => [392,0,80,40],
-    "Sugarcane" => [338,0,80,40],
-    "Wheat" => [296,6,80,40],
-    "Pumpkin Seed" => [361,0,20,10],
-    "Melon Seed" => [362,0,20,10],
-    "Seed" => [295,0,20,10]
+    "Pumpkin" => [86,0,1000,120],
+    "Melon" => [360,13,1000,120],
+    "Carrot" => [391,0,850,100],
+    "Potato" => [392,0,500,85],
+    "Sugarcane" => [338,0,400,65],
+    "Wheat" => [296,6,350,55],
+    "Pumpkin Seed" => [361,0,2000,100],
+    "Melon Seed" => [362,0,2000,100],
+    "Seed" => [295,0,2000,100]
   ];
 
   public $Food = [
@@ -107,18 +107,17 @@ public $Blocks = [
   ];
 
   public $Miscellaneous = [
-    "ICON" => ["Miscellaneous",368,0],
-	"PVP Elixir" => [373,101,35000,500],
-	"Raiding Elixir" => [373,100,10000,500],
+    "ICON" => ["Miscellaneous",368,0], 
 	"Furnace" => [61,0,20,10],
-    "Crafting Table" => [58,0,20,10],
-	"Ender Chest " => [130,0,1000,500],
+    "Crafting Table" => [58,0,2000,10],
+	"Ender Chest " => [130,0,10000,500],
     "Enderpearl" => [368,0,1000,500],
     "Bone" => [352,0,50,25],
     "Book & Quill" => [386,0,100,0],
     "Elytra" => [444,0,1000,500],
-    "Boats" => [333,0,1000,500],
-    "Totem of Undying" => [450,0,1000,500]
+    "Totem of Undying" => [450,0,10000,500],
+    "Echanted G Apple" => [466,0,75000,3000],
+    "G Apples" => [322,0,30000,1500]
   ];
 
   public $Raiding = [
@@ -126,34 +125,34 @@ public $Blocks = [
     "Flint & Steel" => [259,0,100,50],
     "Torch" => [50,0,5,2],
 	"Packed Ice " => [174,0,500,250],
-    "Water" => [9,0,50,10],
-    "Lava" => [10,0,50,10],
-    "Redstone" => [331,0,50,25],
-    "Chest" => [54,0,100,50],
-    "TNT" => [46,0,10000,500]
+    "Water" => [9,0,5000,100],
+    "Lava" => [10,0,5000,100],
+    "Redstone" => [331,0,5000,205],
+    "Chest" => [54,0,1000,50],
+    "TNT" => [46,0,100000,5000]
   ];
 	
   public $Mobs = [
     "ICON" => ["Mobs",52,0],
-    "Blaze" => [383,43,50000,1000],
-    "Stray" => [383,46,50000,1000],
-    "Skeleton" => [383,34,50000,1000],
-    "Zombie" => [383,32,50000,1000],
-    "Husk" => [383,47,50000,1000],
-    "Zombie_Pigman" => [383,36,50000,1000],
-    "Creeper" => [383,33,50000,1000],
-    "Mob Spawner" => [52,0,55000,2000]
+    "Blaze" => [383,43,1500000,100000],
+    "Stray" => [383,46,1400000,100000],
+    "Skeleton" => [383,34,2000000,100000],
+    "Zombie" => [383,32,2500000,100000],
+    "Husk" => [383,47,1250000,100000],
+    "Zombie_Pigman" => [383,36,2750000,100000],
+    "Creeper" => [383,33,4000000,100000],
+    "Mob Spawner" => [52,0,150000,200000]
   ];
 
   public $Potions = [
     "ICON" => ["Potions",373,0],
-    "Strength" => [373,33,1000,100],
-    "Regeneration" => [373,28,1000,100],
-    "Speed" => [373,16,1000,500],
-    "Fire Resistance" => [373,13,1000,100],
-    "Poison (SPLASH)" => [438,27,1000,100],
-    "Weakness (SPLASH)" => [438,35,1000,100],
-    "Slowness (SPLASH)" => [438,17,1000,100]
+    "Strength" => [373,33,10000,100],
+    "Regeneration" => [373,28,10000,100],
+    "Speed" => [373,16,10000,500],
+    "Fire Resistance" => [373,13,10000,100],
+    "Poison (SPLASH)" => [438,27,10000,100],
+    "Weakness (SPLASH)" => [438,35,10000,100],
+    "Slowness (SPLASH)" => [438,17,10000,100]
   ];
 
   public $Skulls = [
@@ -168,10 +167,10 @@ public $Blocks = [
 	
   public $MobDrop = [
     "ICON" => ["MobDrop",369,0],
-    "Blaze Rod" => [369,0,500,50],
-    "Gold Nuggets" => [371,0,500,10],
-    "Rotten Flesh" => [367,0,500,50],
-    "GunPowder" => [289,0,500,50]
+    "Blaze Rod" => [369,0,500,400],
+    "Gold Nuggets" => [371,0,500,300],
+    "Rotten Flesh" => [367,0,500,300],
+    "GunPowder" => [289,0,500,350]
   ];
 	
   public function onEnable(){
@@ -185,7 +184,7 @@ public $Blocks = [
   }
 
   public function sendMainShop(Player $player){
-    $ui = new SimpleForm("§2Aversion§cShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§2SkyRealmPE Shop", "Purchase and sell items here");
     foreach($this->item as $category){
       if(isset($category["ICON"])){
         $rawitemdata = $category["ICON"];
@@ -202,7 +201,7 @@ public $Blocks = [
   }
 
   public function sendShop(Player $player, $id){
-    $ui = new SimpleForm("§2Aversion§cShop","       §aPurchase and Sell items Here!");
+    $ui = new SimpleForm("§2SkyRealmPE Shop", "Shop and Sell Items Here");
     $ids = -1;
     foreach($this->item as $category){
       $ids++;
@@ -251,7 +250,7 @@ public $Blocks = [
     }
 
     $ui = new CustomForm($iname);
-    $slider = new Slider("§dAmount ",1,500,0);
+    $slider = new Slider("§dAmount ",1,128,0);
     $toggle = new Toggle("§5Selling");
     if($sell == 0) $sell = "0";
     $label = new Label(TF::GREEN."Buy: $".TF::GREEN.$cost.TF::RED."\nSell: $".TF::RED.$sell);
