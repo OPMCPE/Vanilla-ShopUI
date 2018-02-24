@@ -100,18 +100,18 @@ public $Blocks = [
 
   public $Food = [
     "ICON" => ["Food",364,0],
-	"Cooked Chicken" => [366,0,10,5],
-    "Steak" => [364,0,10,5],
-    "Golden Apple" => [322,0,500,100],
-    "Enchanted Golden Apple" => [466,0,1000,100]
+	"Cooked Chicken" => [366,0,1000,5],
+    "Steak" => [364,0,1000,5],
+    "Golden Apple" => [322,0,50000,100],
+    "Enchanted Golden Apple" => [466,0,1000000,100]
   ];
 
   public $Miscellaneous = [
     "ICON" => ["Miscellaneous",368,0], 
 	"Furnace" => [61,0,20,10],
     "Crafting Table" => [58,0,2000,10],
-	"Ender Chest " => [130,0,10000,500],
-    "Enderpearl" => [368,0,1000,500],
+	"Ender Chest " => [130,0,100000,500],
+    "Enderpearl" => [368,0,100000,500],
     "Bone" => [352,0,50,25],
     "Book & Quill" => [386,0,100,0],
     "Elytra" => [444,0,1000,500],
@@ -122,26 +122,26 @@ public $Blocks = [
 
   public $Raiding = [
     "ICON" => ["Raiding",46,0],
-    "Flint & Steel" => [259,0,100,50],
-    "Torch" => [50,0,5,2],
+    "Flint & Steel" => [259,0,10000,50],
+    "Torch" => [50,0,500,2],
 	"Packed Ice " => [174,0,500,250],
     "Water" => [9,0,5000,100],
     "Lava" => [10,0,5000,100],
     "Redstone" => [331,0,5000,205],
     "Chest" => [54,0,1000,50],
-    "TNT" => [46,0,100000,5000]
+    "TNT" => [46,0,100000,500]
   ];
 	
   public $Mobs = [
     "ICON" => ["Mobs",52,0],
-    "Blaze" => [383,43,1500000,100000],
-    "Stray" => [383,46,1400000,100000],
-    "Skeleton" => [383,34,2000000,100000],
-    "Zombie" => [383,32,2500000,100000],
-    "Husk" => [383,47,1250000,100000],
-    "Zombie_Pigman" => [383,36,2750000,100000],
-    "Creeper" => [383,33,4000000,100000],
-    "Mob Spawner" => [52,0,150000,200000]
+    "Blaze" => [383,43,1500000,10000],
+    "Stray" => [383,46,1400000,10000],
+    "Skeleton" => [383,34,2000000,10000],
+    "Zombie" => [383,32,2500000,10000],
+    "Husk" => [383,47,1250000,10000],
+    "Zombie_Pigman" => [383,36,2750000,10000],
+    "Creeper" => [383,33,4000000,10000],
+    "Mob Spawner" => [52,0,1500000,20000]
   ];
 
   public $Potions = [
@@ -157,12 +157,12 @@ public $Blocks = [
 
   public $Skulls = [
     "ICON" => ["Skulls",397,0],
-    "Zombie Skull" => [397,2,500,50],
-    "Wither Skull" => [397,1,500,50],
-    "Skin Head" => [397,3,50,10],
-    "Creeper Skull" => [397,4,500,50],
-    "Dragon Skull" => [397,5,1000,60],
-    "Skeleton Skull" => [397,0,500,50]
+    "Zombie Skull" => [397,2,50000,500],
+    "Wither Skull" => [397,1,50000,500],
+    "Skin Head" => [397,3,5000,100],
+    "Creeper Skull" => [397,4,50000,500],
+    "Dragon Skull" => [397,5,100000,600],
+    "Skeleton Skull" => [397,0,50000,500]
   ];
 	
   public $MobDrop = [
